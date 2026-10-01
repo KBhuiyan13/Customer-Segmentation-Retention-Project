@@ -31,7 +31,7 @@ The goal is to demonstrate an end-to-end machine learning workflow from raw cust
 ---
 ## 📊 Dashboard Preview
 
-![Customer Retention Analytics Dashboard](reports/dashboard_overview.png)
+![Customer Retention Analytics Dashboard](reports/figures/dashboard_overview.png)
 
 ---
 
