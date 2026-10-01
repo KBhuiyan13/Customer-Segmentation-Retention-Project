@@ -188,6 +188,7 @@ Low-Value Inactive Customers	1,115	148.21	1.47	£202.54
 
 The segments are descriptive behavioral groups and should not be interpreted as causal customer categories.
 
+
 💰 Customer Lifetime Value
 
 A scenario-based revenue CLTV proxy was developed using:
@@ -215,6 +216,7 @@ Engaged Loyal Customers	£5,977	£8.47M
 Low-Value Inactive Customers	£1,873	£2.09M
 
 Important: This CLTV is a revenue-based scenario proxy rather than a statistically estimated future profit CLTV.
+
 
 🤖 Churn Prediction
 
@@ -278,6 +280,7 @@ Features increasing estimated churn risk
 Features decreasing estimated churn risk
 Relative feature influence
 SHAP impact values
+
 🎯 Retention Strategy
 
 The project combines customer value and churn-risk concepts to support retention decisions.
@@ -347,6 +350,7 @@ Churn prediction
 Customer summary
 SHAP-based explanation
 Feature impact visualization
+
 ▶️ Running the Dashboard
 1. Clone the repository
 git clone https://github.com/KBhuiyan13/Customer-Segmentation-Retention-Project.git
@@ -364,13 +368,13 @@ pip install -r requirements.txt
 streamlit run app.py
 
 ### Run with Docker
-
 Build the Docker image:
 
 ```bash
 docker run -p 8501:8501 customer-retention-dashboard
 
 The dashboard will open in your browser.
+
 
 📁 Project Structure
 Customer-Segmentation-Retention/
@@ -405,6 +409,8 @@ Customer-Segmentation-Retention/
 │
 └── reports/
     └── figures/
+
+
 🛠️ Technology Stack
 Programming
 Python
@@ -425,6 +431,8 @@ Development
 Jupyter Notebook
 VS Code
 Git / GitHub
+
+
 🔬 Key Skills Demonstrated
 
 This project demonstrates practical experience with:
@@ -447,6 +455,7 @@ ML pipelines
 Model persistence
 Streamlit application development
 Business-oriented machine learning
+
 ⚠️ Limitations
 
 Several limitations should be considered:
@@ -458,30 +467,36 @@ The churn model reflects the historical Telco dataset population.
 The classification threshold is business-dependent.
 SHAP explains model behavior but does not establish causality.
 Retention strategies should be validated through controlled experiments and real business outcomes.
+
+
 📌 Future Improvements
 
 Potential next steps include:
 
-Hyperparameter optimization
-Cross-validation
-Calibration of churn probabilities
-Cost-sensitive model optimization
-Customer-level CLTV forecasting
-Survival analysis
-Uplift modeling
-A/B testing framework
-Automated model monitoring
-Data drift monitoring
-Model drift monitoring
-Automated retraining pipeline
+- Hyperparameter optimization
+- Cross-validation
+- Churn probability calibration
+- Cost-sensitive model optimization
+- Customer-level CLTV forecasting
+- Survival analysis
+- Uplift modeling
+- A/B testing framework
+- Automated model monitoring
+- Data drift monitoring
+- Model drift monitoring
+- Automated retraining pipeline
+- Cloud deployment
+- Production API
+
+
 📄 License
 
-This project is intended for educational and portfolio purposes.
+This project is intended for educational purposes.
 
 Dataset licenses and usage terms remain subject to the original dataset providers.
 
-👤 Author
 
+👤 Author
 Md. Khairul Bashar Bhuiyan
 
 Big-Data / Machine Learning Engineer
