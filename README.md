@@ -29,6 +29,11 @@ This project combines:
 The goal is to demonstrate an end-to-end machine learning workflow from raw customer data to actionable analytical insights.
 
 ---
+## 📊 Dashboard Preview
+
+![Customer Retention Analytics Dashboard](reports/dashboard_overview.png)
+
+---
 
 ## 🏗️ Project Architecture
 
@@ -358,6 +363,13 @@ pip install -r requirements.txt
 5. Run Streamlit
 streamlit run app.py
 
+### Run with Docker
+
+Build the Docker image:
+
+```bash
+docker run -p 8501:8501 customer-retention-dashboard
+
 The dashboard will open in your browser.
 
 📁 Project Structure
@@ -461,9 +473,6 @@ A/B testing framework
 Automated model monitoring
 Data drift monitoring
 Model drift monitoring
-Docker containerization
-Cloud deployment
-Production API
 Automated retraining pipeline
 📄 License
 
@@ -475,7 +484,7 @@ Dataset licenses and usage terms remain subject to the original dataset provider
 
 Md. Khairul Bashar Bhuiyan
 
-Data / Machine Learning Engineer
+Big-Data / Machine Learning Engineer
 
 GitHub: https://github.com/KBhuiyan13
 
