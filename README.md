@@ -492,14 +492,13 @@ Potential next steps include:
 📄 License
 
 This project is intended for educational purposes.
-
 Dataset licenses and usage terms remain subject to the original dataset providers.
 
 
 👤 Author
 Md. Khairul Bashar Bhuiyan
 
-Big-Data / Machine Learning Engineer
+Machine Learning Engineer, Brain System Ltd.
 
 GitHub: https://github.com/KBhuiyan13
 
