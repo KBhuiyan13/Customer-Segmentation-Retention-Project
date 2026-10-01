@@ -344,7 +344,7 @@ SHAP-based explanation
 Feature impact visualization
 ▶️ Running the Dashboard
 1. Clone the repository
-git clone https://github.com/KBhuiyan13/Customer-Segmentation-Retention.git
+git clone https://github.com/KBhuiyan13/Customer-Segmentation-Retention-Project.git
 cd Customer-Segmentation-Retention
 2. Create a virtual environment
 python -m venv .venv
